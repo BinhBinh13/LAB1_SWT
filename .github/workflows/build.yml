@@ -1,0 +1,19 @@
+nare: Build
+push:
+branches:
+poll request
+Lypes: [opened, synchronize, reopened]
+Jobs:
+sonarcloud:
+nane:
+SonarCloud
+runs-on: ubuntu-latest
+steps:
+uses: actions/checkout@v3
+with:
+fetch-depth: #Shallow clones should be disabled for a better relevancy of analysts
+name
+: Sonar Cloud Scan
+uses: Sonar Source/sonar-cloud-github actroninaster
+GITHUB TOKEN: 5[[secrets.GITHUB TOKEN)) #Nesded to get i Loformation, if any
+SONAR TOKEN ${{ secrets. SONAR TOKEN}}
